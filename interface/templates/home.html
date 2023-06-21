@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <title>home page</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}" >
+
+</head>
+<body>
+    <div class="main-page">
+        <div class="head-bar">
+            <div class="logo-bar">
+                <div>
+                    <img src="{% static 'image_home/logo.png' %}" class="logo-image">
+                </div>
+                <div class="logo-name">
+                    Ensias Crypto
+                </div>
+            </div>
+            <div class="info-bar">
+                <div  class="d">
+                    <a href="#curr">Currency</a>
+                </div>
+                <div  class="d">
+                    <a href="#howit">How it work</a>
+                </div>
+                <div  class="d">
+                    <a href="#team">Team</a>
+                </div>
+                <div  class="d">
+                    <a href="#about">About us</a>
+                </div>
+            </div>
+            <div class="acc-button">
+                <div>
+                    <button class="login-button">
+                        Log in
+                    </button>
+                </div>
+                <div>
+                    <button  class="signup-button" onclick="location.href='/sign_up'" >
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="interface">
+            <div>
+                <img src="{% static 'image_home/am55-removebg-preview.png' %}" class="imag-home">
+            </div>
+            <div class="semi-sign">
+                <div>
+                    <p>
+                        menage your wallet<br> and your funds <br> in one app
+                    </p>
+                </div>
+                <div>
+                    <form>
+                        <input type="text" name="email" value="Enter your email here" class="in1" onfocus="this.value=''">
+                        <input type="submit" value="Get Started" class="in2">
+                    </form>
+                </div>
+                <div class="web-info">
+                    <div class="nb-cur">
+                        <div>
+                            <img src="{% static 'image_home/00-Hero-Mobile-Crypto-removebg-preview.png' %}" class="imageinfo2">
+                        </div>
+                        <div>
+                            6 Currency
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="{% static 'image_home/userim-removebg-preview.png' %}" class="imageinfo1">
+                        </div>
+                        <div>
+                            860+ Users
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-us" id="about">
+            <div>
+                <p class="px">About Us</p>
+            </div>
+            <div>
+                Im a student in ensias and this is my first try to create a full website , hope you enjoy using it 
+                and when you finish , let me know if the site is good or it need something else , also we need 
+                "resto f ensias hh"
+                that's all
+            </div>
+        </div>
+        <div class="company" id="team">
+            <div>
+                <p class="px">Team</p>
+            </div>
+            <div>
+                <div>
+                    << team >>
+                </div>
+                <div>
+                    imadxt <br>
+                    2SCL (1A)<br>
+                    ENSIAS<br>
+                </div>
+            </div>
+        </div>
+        <div class="currency" id="curr">
+            <div>
+                <p class="px">Currency</p>
+            </div>
+            <div>
+                i created this currency system to test ,it's not a real one , you can create your account
+                and log in to the site to try how it work , you can also deposit any amount you want ( it will be
+                considired as donation to me) , please do not deposit if you think the site is real , you can also
+                use this code in the redeemption system to have a virtuel amount of all currency in the site 
+                code "ENSIAS2023"
+            </div>
+        </div>
+        <div class="how" id="howit">
+            <div>
+                <p class="px">How it work</p>
+            </div>
+            <div class="last">
+                it's just a test of mini project , so im waiting for you to send me your opinion after using my site
+            </div>
+        </div>
+    </div>
+</body>
+</html>

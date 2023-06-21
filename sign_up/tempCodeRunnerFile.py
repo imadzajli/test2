@@ -1,0 +1,1 @@
+email=models.CharField(max_length=30)
